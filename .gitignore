@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Local Gemini Brain Files
+.gemini/
+brain/
+
+# Temp files
+/tmp/
+*.tmp
+*.log

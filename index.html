@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abdirahman Ali Mohamed — Full Stack Developer. Building digital systems, web applications, and scalable solutions." />
+  <meta name="keywords" content="Full Stack Developer, Web Developer, PHP, JavaScript, MySQL, Kismayo" />
+  <meta name="author" content="Abdirahman Ali Mohamed" />
+  <title>Abdirahman Ali Mohamed | Full Stack Developer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <!-- Logo removed per user request -->
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link" data-section="testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--top" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow--bottom" aria-hidden="true"></div>
+
+      <!-- Two-column inner grid -->
+      <div class="hero-inner">
+
+        <!-- Left: text content -->
+        <div class="hero-content">
+          <div class="hero-badge" data-reveal>
+            <span class="badge-dot"></span>
+            Available for freelance &amp; opportunities
+          </div>
+
+          <h1 class="hero-name" id="hero-heading" data-reveal>
+            Abdirahman Ali<br />
+            <span class="hero-name--accent">Mohamed</span>
+          </h1>
+
+          <div class="hero-title" data-reveal>
+            <span class="hero-title--prefix">&gt; </span>
+            <span class="hero-title--typed" id="typedText" aria-label="Full Stack Developer"></span>
+            <span class="hero-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description" data-reveal>
+            I design and build <strong>high-performance digital systems</strong> and web applications —
+            from database architecture to polished user interfaces.
+            Turning complex problems into clean, scalable solutions.
+          </p>
+
+          <div class="hero-cta" data-reveal>
+            <a href="#projects" class="btn btn--primary">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+
+          <div class="hero-stats" data-reveal>
+            <div class="hero-stat">
+              <span class="hero-stat__number">5+</span>
+              <span class="hero-stat__label">Projects Built</span>
+            </div>
+            <div class="hero-stat__divider" aria-hidden="true"></div>
+            <div class="hero-stat">
+              <span class="hero-stat__number">3+</span>
+              <span class="hero-stat__label">Years Experience</span>
+            </div>
+            <div class="hero-stat__divider" aria-hidden="true"></div>
+            <div class="hero-stat">
+              <span class="hero-stat__number">100%</span>
+              <span class="hero-stat__label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: profile image -->
+        <div class="hero-image-col" data-reveal>
+          <div class="hero-image-frame">
+            <img
+              src="assets/hero-profile.png"
+              alt="Abdirahman Ali Mohamed — Full Stack Developer"
+              class="hero-profile-img"
+              width="420"
+              height="520"
+              loading="eager"
+            />
+            <div class="hero-image-glow" aria-hidden="true"></div>
+            <div class="hero-image-ring" aria-hidden="true"></div>
+          </div>
+        </div>
+
+      </div><!-- /.hero-inner -->
+
+      <div class="hero-scroll" aria-label="Scroll down">
+        <span class="hero-scroll__label">Scroll</span>
+        <div class="hero-scroll__line" aria-hidden="true">
+          <div class="hero-scroll__dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-tag" data-reveal>
+          About Me
+        </div>
+        <h2 class="section-title" id="about-heading" data-reveal>
+          Crafting Digital<br /><span class="text-accent">Experiences</span>
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-text" data-reveal>
+            <p>
+              I'm a <strong>passionate Full Stack Developer</strong> with a deep commitment to crafting
+              efficient, maintainable, and scalable web applications that solve real-world problems.
+            </p>
+            <p>
+              My approach combines clean backend logic with intuitive front-end interfaces, ensuring
+              every system I build is not only functional but delivers a seamless user experience from
+              first click to final interaction.
+            </p>
+            <p>
+              I thrive on transforming complex business challenges into elegant technological solutions —
+              whether it's architecting a database schema, building a REST API, or designing a responsive UI.
+            </p>
+            <p>
+              Currently a <strong>final-year Bachelor of Information Technology student</strong> at
+              Kismayo University, I am deeply focused on building scalable digital systems that
+              create meaningful impact for businesses and communities.
+            </p>
+
+            <div class="about-meta">
+              <div class="about-meta__item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                <span>Kismayo University — B.Sc. Information Technology</span>
+              </div>
+              <div class="about-meta__item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                <span>Full Stack Developer — Freelance</span>
+              </div>
+              <div class="about-meta__item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Kismayo, Somalia</span>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn--primary">Let's Work Together</a>
+          </div>
+
+          <div class="about-card-col" data-reveal>
+            <div class="about-code-card">
+              <div class="code-card-header">
+                <span class="code-dot red" aria-hidden="true"></span>
+                <span class="code-dot yellow" aria-hidden="true"></span>
+                <span class="code-dot green" aria-hidden="true"></span>
+                <span class="code-card-filename">developer.json</span>
+              </div>
+              <pre class="code-card-body"><code><span class="code-brace">{</span>
+  <span class="code-key">"name"</span>: <span class="code-string">"Abdirahman Ali Mohamed"</span>,
+  <span class="code-key">"role"</span>: <span class="code-string">"Full Stack Developer"</span>,
+  <span class="code-key">"location"</span>: <span class="code-string">"Kismayo, Somalia"</span>,
+  <span class="code-key">"education"</span>: <span class="code-string">"B.Sc. IT (Final Year)"</span>,
+  <span class="code-key">"availability"</span>: <span class="code-boolean">true</span>,
+  <span class="code-key">"passions"</span>: <span class="code-brace">[</span>
+    <span class="code-string">"Web Development"</span>,
+    <span class="code-string">"System Architecture"</span>,
+    <span class="code-string">"Clean Code"</span>
+  <span class="code-brace">]</span>,
+  <span class="code-key">"openToWork"</span>: <span class="code-boolean">true</span>
+<span class="code-brace">}</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS SECTION ===================== -->
+    <section class="skills section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-tag" data-reveal>
+          Skills
+        </div>
+        <h2 class="section-title" id="skills-heading" data-reveal>
+          Tech <span class="text-accent">Stack</span>
+        </h2>
+
+        <div class="skills-grid">
+
+          <!-- Core Technologies -->
+          <div class="skills-group" data-reveal>
+            <h3 class="skills-group__title">Core Technologies</h3>
+            <div class="skill-cards">
+
+              <div class="skill-card">
+                <div class="skill-card__icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+                </div>
+                <span class="skill-card__name">HTML5</span>
+                <span class="skill-card__level">Expert</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--css">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
+                </div>
+                <span class="skill-card__name">CSS3</span>
+                <span class="skill-card__level">Expert</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--js">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+                </div>
+                <span class="skill-card__name">JavaScript</span>
+                <span class="skill-card__level">Advanced</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--php">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.311 1.596H3.801l1.01-5.184h2.258c.56 0 .985.068 1.282.206.303.14.519.342.647.605.13.264.166.572.108.921a2.16 2.16 0 0 1-.366.141zm4.093-1.558h-.917l-.517 2.648h.843c.556 0 .97-.105 1.24-.314.272-.21.454-.559.55-1.049.091-.47.049-.802-.124-.995-.174-.193-.524-.29-1.075-.29zm.831-2.32h3.058c.504 0 .898.07 1.17.207.276.138.464.336.565.596.1.26.113.573.044.942a2.49 2.49 0 0 1-.351.91c-.193.285-.463.531-.8.716-.262.145-.547.243-.852.29l.845.946.003.003c.295.33.444.681.444.888H17.48a.852.852 0 0 0 0-.053c0-.24-.143-.553-.399-.86l-.786-.895h-.28l-.392 1.808h-1.246l1.01-5.184z"/></svg>
+                </div>
+                <span class="skill-card__name">PHP</span>
+                <span class="skill-card__level">Advanced</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--mysql">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.274.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.06-.14a.544.544 0 0 0-.202-.152zM5.86 12.26c-.054 0-.107.014-.166.027-.294.166-.507.46-.64.813-.133.354-.2.741-.2 1.161 0 .514.1.954.313 1.306.213.354.54.54.973.54.294 0 .554-.08.773-.254.22-.173.373-.427.433-.74v-.013c-.047.014-.1.021-.153.021-.24 0-.433-.1-.573-.307a1.56 1.56 0 0 1-.214-.826c0-.3.06-.567.18-.8.12-.233.3-.386.553-.386.127 0 .24.027.346.08-.007-.02-.02-.047-.027-.067a1.63 1.63 0 0 0-.333-.46 1.188 1.188 0 0 0-.266-.1zM24 11.307c0 6.338-5.373 11.575-12 11.575-1.486 0-2.91-.272-4.22-.766l4.453-13.172C13.586 7.307 16.1 5.56 18.96 5.56c1.393 0 2.646.48 3.607 1.273-.207.26-.347.566-.347.9 0 .64.52 1.186 1.186 1.186.04 0 .08-.007.12-.013.16.567.253 1.16.253 1.774 0 .207-.013.407-.033.607l-.013.02zm-6.693 2.34a2.64 2.64 0 0 0-.42-.034c-.367 0-.633.074-.793.22-.16.147-.247.353-.247.627 0 .32.08.573.247.766.166.194.393.294.68.294.287 0 .507-.1.667-.294.16-.193.24-.446.24-.766 0-.247-.047-.46-.134-.627a.938.938 0 0 0-.24-.186zM12 .693C5.373.693 0 5.93 0 12.267c0 6.338 5.373 11.575 12 11.575s12-5.237 12-11.575C24 5.93 18.627.693 12 .693zm4.953 5.414a.64.64 0 0 1 .12-.02c.294 0 .527.126.7.38.173.253.26.586.26.993 0 .287-.047.527-.14.72-.094.194-.22.34-.387.44a.84.84 0 0 1-.48.147c-.3 0-.553-.12-.767-.367-.213-.246-.32-.573-.32-.98 0-.327.06-.607.18-.84.12-.234.287-.407.5-.507.1-.04.207-.06.32-.06-.014.027-.027.054-.04.086zm-6.76 7.2c.066-.5.2-.967.4-1.394.2-.426.487-.8.847-1.12.36-.32.773-.5 1.24-.5.42 0 .773.127 1.06.38a1.7 1.7 0 0 1 .527.967c.04.266.04.52 0 .767-.04.246-.12.48-.24.7.274.14.48.334.614.574.133.24.2.527.2.847 0 .447-.1.847-.307 1.2-.207.354-.487.634-.847.84-.36.207-.767.307-1.22.307-.493 0-.906-.12-1.246-.36-.34-.24-.567-.573-.68-.993-.12-.42-.1-.87.054-1.34l-.4.126z"/></svg>
+                </div>
+                <span class="skill-card__name">MySQL</span>
+                <span class="skill-card__level">Advanced</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Developer Tools -->
+          <div class="skills-group" data-reveal>
+            <h3 class="skills-group__title">Developer Tools</h3>
+            <div class="skill-cards">
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--vscode">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg>
+                </div>
+                <span class="skill-card__name">VS Code</span>
+                <span class="skill-card__level">Daily Driver</span>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-card__icon skill-card__icon--github">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </div>
+                <span class="skill-card__name">GitHub</span>
+                <span class="skill-card__level">Version Control</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Skill Bars -->
+          <div class="skills-bars-group" data-reveal>
+            <h3 class="skills-group__title">Proficiency</h3>
+            <div class="skill-bars">
+              <div class="skill-bar">
+                <div class="skill-bar__info">
+                  <span class="skill-bar__name">HTML / CSS</span>
+                  <span class="skill-bar__percent">95%</span>
+                </div>
+                <div class="skill-bar__track">
+                  <div class="skill-bar__fill" data-width="95"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar__info">
+                  <span class="skill-bar__name">JavaScript</span>
+                  <span class="skill-bar__percent">80%</span>
+                </div>
+                <div class="skill-bar__track">
+                  <div class="skill-bar__fill" data-width="80"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar__info">
+                  <span class="skill-bar__name">PHP</span>
+                  <span class="skill-bar__percent">82%</span>
+                </div>
+                <div class="skill-bar__track">
+                  <div class="skill-bar__fill" data-width="82"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar__info">
+                  <span class="skill-bar__name">MySQL</span>
+                  <span class="skill-bar__percent">78%</span>
+                </div>
+                <div class="skill-bar__track">
+                  <div class="skill-bar__fill" data-width="78"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS SECTION ===================== -->
+    <section class="projects section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-tag" data-reveal>
+          Projects
+        </div>
+        <h2 class="section-title" id="projects-heading" data-reveal>
+          Featured <span class="text-accent">Work</span>
+        </h2>
+        <p class="section-subtitle" data-reveal>
+          A selection of systems and applications developed as freelance projects.
+        </p>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card" data-reveal>
+            <div class="project-card__image">
+              <img src="assets/project-inventory.png" alt="Inventory Management System preview" loading="lazy" />
+            </div>
+            <div class="project-card__number" aria-hidden="true">01</div>
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 8h10M7 11h6"/></svg>
+              </div>
+              <div class="project-card__links">
+                <span class="project-badge">Freelance</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Inventory Management System</h3>
+            <p class="project-card__description">
+              A comprehensive system designed to manage stock, products, and inventory operations
+              efficiently. Features real-time tracking, reporting, and product lifecycle management.
+            </p>
+            <div class="project-card__tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-reveal>
+            <div class="project-card__image">
+              <img src="assets/project-prison.png" alt="Prison Management System preview" loading="lazy" />
+            </div>
+            <div class="project-card__number" aria-hidden="true">02</div>
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg>
+              </div>
+              <div class="project-card__links">
+                <span class="project-badge">Freelance</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Prison Management System</h3>
+            <p class="project-card__description">
+              A secure digital platform for managing prisoner records, staff data, and full prison
+              administration. Includes access control, reporting modules, and audit trails.
+            </p>
+            <div class="project-card__tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-reveal>
+            <div class="project-card__image">
+              <img src="assets/project-tasbeeh.png" alt="Tasbeeh Counter preview" loading="lazy" />
+            </div>
+            <div class="project-card__number" aria-hidden="true">03</div>
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              </div>
+              <div class="project-card__links">
+                <span class="project-badge">Personal</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">Tasbeeh Counter</h3>
+            <p class="project-card__description">
+              A beautifully designed digital Islamic tasbeeh counter crafted for smooth and distraction-free
+              dhikr counting. Lightweight, offline-first, and accessible on any device.
+            </p>
+            <div class="project-card__tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-reveal>
+            <div class="project-card__image">
+              <img src="assets/project-school.png" alt="School Management System preview" loading="lazy" />
+            </div>
+            <div class="project-card__number" aria-hidden="true">04</div>
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <div class="project-card__links">
+                <span class="project-badge">Freelance</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">School Management System</h3>
+            <p class="project-card__description">
+              A full-featured platform for managing students, teachers, academic records, attendance,
+              and school administration with multi-role user access and reporting dashboards.
+            </p>
+            <div class="project-card__tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card project-card--featured" data-reveal>
+            <div class="project-card__image">
+              <img src="assets/project-elearning.png" alt="E-Learning Website preview" loading="lazy" />
+            </div>
+            <div class="project-card__number" aria-hidden="true">05</div>
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <div class="project-card__links">
+                <span class="project-badge">Freelance</span>
+              </div>
+            </div>
+            <h3 class="project-card__title">E-Learning Website</h3>
+            <p class="project-card__description">
+              A comprehensive online education platform allowing students to access courses and
+              learning materials digitally. Features course management, student enrollment,
+              and progress tracking for an end-to-end learning experience.
+            </p>
+            <div class="project-card__tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS SECTION ===================== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-tag" data-reveal>Testimonials</div>
+        <h2 class="section-title" id="testimonials-heading" data-reveal>
+          What Clients <span class="text-accent">Say</span>
+        </h2>
+        <p class="section-subtitle" data-reveal>
+          Feedback from clients and collaborators I've had the pleasure of working with.
+        </p>
+
+        <div class="testimonials-grid">
+
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card" data-reveal>
+            <div class="testimonial-card__quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+            </div>
+            <p class="testimonial-card__text">
+              Abdirahman delivered our Inventory Management System ahead of schedule. 
+              His attention to detail and clean code structure made future updates effortless. 
+              A true professional who understands business needs.
+            </p>
+            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" aria-hidden="true">MH</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__name">Mohamed Hassan</span>
+                <span class="testimonial-card__role">Business Owner, Kismayo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card" data-reveal>
+            <div class="testimonial-card__quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+            </div>
+            <p class="testimonial-card__text">
+              The School Management System he built transformed how we handle student records 
+              and administration. The interface is intuitive and the system is rock solid. 
+              Highly recommended for any institution.
+            </p>
+            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" aria-hidden="true">FA</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__name">Faadumo Abdi</span>
+                <span class="testimonial-card__role">School Principal, Somalia</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card" data-reveal>
+            <div class="testimonial-card__quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+            </div>
+            <p class="testimonial-card__text">
+              Working with Abdirahman on our E-Learning platform was a great experience. 
+              He asked the right questions, understood our goals quickly, and delivered 
+              a polished platform our students absolutely love.
+            </p>
+            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" aria-hidden="true">AO</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__name">Ahmed Omar</span>
+                <span class="testimonial-card__role">E-Learning Director</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 4 -->
+          <article class="testimonial-card" data-reveal>
+            <div class="testimonial-card__quote" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"/></svg>
+            </div>
+            <p class="testimonial-card__text">
+              The Prison Management System exceeded our expectations. It's secure, 
+              well-organized, and has dramatically improved how we manage records. 
+              Abdirahman is reliable, skilled, and delivers quality work every time.
+            </p>
+            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <div class="testimonial-card__author">
+              <div class="testimonial-avatar" aria-hidden="true">SI</div>
+              <div class="testimonial-card__author-info">
+                <span class="testimonial-card__name">Saciid Ibrahim</span>
+                <span class="testimonial-card__role">System Administrator</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-tag" data-reveal>
+          Contact
+        </div>
+        <h2 class="section-title" id="contact-heading" data-reveal>
+          Let's <span class="text-accent">Connect</span>
+        </h2>
+        <p class="section-subtitle" data-reveal>
+          Have a project in mind? Let's build something great together.
+        </p>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info -->
+          <div class="contact-info" data-reveal>
+            <div class="contact-info__card">
+              <a href="mailto:abdirahmanmoha980@gmail.com" class="contact-info__item" aria-label="Send email to Abdirahman">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <span class="contact-info__label">Email</span>
+                  <span class="contact-info__value">abdirahmanmoha980@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+252619377061" class="contact-info__item" aria-label="Call Abdirahman">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.08 6.08l1.95-1.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 15.17v1.75z"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <span class="contact-info__label">Phone</span>
+                  <span class="contact-info__value">+252 619 377 061</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/abdirahman-ali-7165793b6" target="_blank" rel="noopener noreferrer" class="contact-info__item" aria-label="Visit LinkedIn profile">
+                <div class="contact-info__icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <span class="contact-info__label">LinkedIn</span>
+                  <span class="contact-info__value">abdirahman-ali-7165793b6</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper" data-reveal>
+            <form 
+              action="https://formspree.io/f/xqeygbek" 
+              method="POST"
+              class="contact-form" 
+              id="contactForm" 
+              novalidate 
+              aria-label="Contact form"
+            >
+              <div class="form-group">
+                <label for="contactName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  id="contactName"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your full name"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="contactEmail"
+                  name="email"
+                  class="form-input"
+                  placeholder="your@email.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  class="form-textarea"
+                  rows="5"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+
+              <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <p class="footer-tagline">Building digital systems, one line at a time.</p>
+        </div>
+
+        <div class="footer-links">
+          <nav aria-label="Footer navigation">
+            <ul role="list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/abdirahman-ali-7165793b6" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:abdirahmanmoha980@gmail.com" class="social-link" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear"></span> Abdirahman Ali Mohamed. All rights reserved.</p>
+        <p class="footer-bottom__credit">Designed &amp; Built with <span aria-label="love">♥</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
