@@ -943,6 +943,10 @@ textarea {
   color: #34d399;
 }
 
+.skill-card__icon--python {
+  color: #3776ab;
+}
+
 .skill-card__icon--vscode {
   color: #60a5fa;
 }
